@@ -3,3 +3,8 @@ pandas
 matplotlib
 tslearn
 pyarrow
+seaborn
+tqdm
+ipywidgets
+scipy
+h5py

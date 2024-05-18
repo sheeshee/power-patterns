@@ -163,6 +163,8 @@ cython_debug/
 data/
 auxiliary_data/
 auxiliary_data_building_tags.csv
-utils.py
+utils_example.py
 power-patterns-starter-notebook.ipynb
 power-patterns-starter-notebook-original.ipynb
+references/
+tmp/

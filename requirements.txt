@@ -4,45 +4,85 @@
 #
 #    pip-compile requirements.in
 #
+asttokens==2.4.1
+    # via stack-data
+comm==0.2.2
+    # via ipywidgets
 contourpy==1.2.1
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
+decorator==5.1.1
+    # via ipython
+exceptiongroup==1.2.1
+    # via ipython
+executing==2.0.1
+    # via stack-data
 fonttools==4.51.0
     # via matplotlib
+h5py==3.11.0
+    # via -r requirements.in
 importlib-resources==6.4.0
     # via matplotlib
+ipython==8.18.1
+    # via ipywidgets
+ipywidgets==8.1.2
+    # via -r requirements.in
+jedi==0.19.1
+    # via ipython
 joblib==1.4.0
     # via
     #   scikit-learn
     #   tslearn
+jupyterlab-widgets==3.0.10
+    # via ipywidgets
 kiwisolver==1.4.5
     # via matplotlib
 llvmlite==0.42.0
     # via numba
 matplotlib==3.8.4
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   seaborn
+matplotlib-inline==0.1.7
+    # via ipython
 numba==0.59.1
     # via tslearn
 numpy==1.26.4
     # via
     #   -r requirements.in
     #   contourpy
+    #   h5py
     #   matplotlib
     #   numba
     #   pandas
     #   pyarrow
     #   scikit-learn
     #   scipy
+    #   seaborn
     #   tslearn
 packaging==24.0
     # via matplotlib
 pandas==2.2.2
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   seaborn
+parso==0.8.4
+    # via jedi
+pexpect==4.9.0
+    # via ipython
 pillow==10.3.0
     # via matplotlib
+prompt-toolkit==3.0.43
+    # via ipython
+ptyprocess==0.7.0
+    # via pexpect
+pure-eval==0.2.2
+    # via stack-data
 pyarrow==15.0.2
     # via -r requirements.in
+pygments==2.17.2
+    # via ipython
 pyparsing==3.1.2
     # via matplotlib
 python-dateutil==2.9.0.post0
@@ -55,15 +95,36 @@ scikit-learn==1.4.2
     # via tslearn
 scipy==1.13.0
     # via
+    #   -r requirements.in
     #   scikit-learn
     #   tslearn
+seaborn==0.13.2
+    # via -r requirements.in
 six==1.16.0
-    # via python-dateutil
+    # via
+    #   asttokens
+    #   python-dateutil
+stack-data==0.6.3
+    # via ipython
 threadpoolctl==3.4.0
     # via scikit-learn
+tqdm==4.66.2
+    # via -r requirements.in
+traitlets==5.14.3
+    # via
+    #   comm
+    #   ipython
+    #   ipywidgets
+    #   matplotlib-inline
 tslearn==0.6.3
     # via -r requirements.in
+typing-extensions==4.11.0
+    # via ipython
 tzdata==2024.1
     # via pandas
+wcwidth==0.2.13
+    # via prompt-toolkit
+widgetsnbextension==4.0.10
+    # via ipywidgets
 zipp==3.18.1
     # via importlib-resources
