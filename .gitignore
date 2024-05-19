@@ -168,3 +168,5 @@ power-patterns-starter-notebook.ipynb
 power-patterns-starter-notebook-original.ipynb
 references/
 tmp/
+processed/*.npy
+processed/lookup.json
